@@ -1,0 +1,19 @@
+zsh tool that binds various shortcuts to semicolon typed at an empty prompt
+
+currently supports:
+
+    ;g (git)
+        follow by various letters to access git functions (e.g. ;gc = git commit)
+
+    ;j (jump)
+        use ;j+ to add a jump bind to the current directory
+        use ;j* to edit the list of jump binds
+        use ;j[bind] to jump to the corresponding directory
+
+    ;c, ;x (compile)
+        use ;x to set the "compile" command used in the current directory
+        use ;x* to edit this list of compile commands
+        use ;c to run the compile command
+
+    ;m (mkdir)
+        use ;m to insert "mkdir [current date]_"
